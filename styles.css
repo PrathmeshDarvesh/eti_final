@@ -1497,4 +1497,313 @@ button:disabled {
     font-size: 0.8em;
     margin-left: 8px;
     display: inline-block;
+}
+
+/* Improved Mobile Styles */
+@media (max-width: 768px) {
+    /* Basic container adjustments */
+    .container {
+        padding: 0.5rem;
+        margin: 0;
+        width: 100%;
+    }
+
+    /* Header adjustments */
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Question container */
+    .question {
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 0.5rem 0;
+        line-height: 1.4;
+    }
+
+    /* Options adjustments */
+    .option {
+        padding: 0.8rem;
+        margin: 0.5rem 0;
+        font-size: 0.95rem;
+        min-height: 50px; /* Better touch targets */
+    }
+
+    .option-key {
+        min-width: 25px;
+    }
+
+    /* Feedback container */
+    .feedback {
+        padding: 0.8rem;
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+    }
+
+    .feedback-icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.3rem;
+    }
+
+    /* Button adjustments */
+    button {
+        padding: 0.8rem;
+        font-size: 0.95rem;
+        min-height: 44px; /* Better touch targets */
+        margin: 0.3rem 0;
+    }
+
+    /* Sidebar adjustments */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        z-index: 1000;
+        transition: left 0.3s ease;
+        padding: 1rem;
+    }
+
+    .sidebar.open {
+        left: 0;
+    }
+
+    /* Main content when sidebar is open */
+    .main-container {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    /* Progress bar */
+    .progress-container {
+        margin: 0.5rem 0;
+    }
+
+    #progress-bar {
+        height: 6px;
+    }
+
+    /* Timer */
+    .timer {
+        font-size: 0.9rem;
+        padding: 0.2rem 0.4rem;
+    }
+
+    /* Question navigation */
+    #question-nav {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+        gap: 0.3rem;
+        padding: 0.5rem;
+    }
+
+    .nav-btn {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    /* Category and difficulty tags */
+    .category-tag, .difficulty-indicator {
+        font-size: 0.8rem;
+        padding: 0.2rem 0.5rem;
+        margin: 0.2rem;
+    }
+
+    /* Search and filter */
+    .search-container {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    #question-search {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Results page */
+    .review-summary {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .summary-item {
+        padding: 0.8rem;
+    }
+
+    .review-item {
+        padding: 1rem;
+        margin: 0.5rem 0;
+    }
+
+    /* Accessibility controls */
+    .accessibility-controls {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    /* Burger menu improvements */
+    .burger-menu {
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        z-index: 1001;
+        background: var(--container-bg);
+        border-radius: 5px;
+        padding: 0.5rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Overlay when sidebar is open */
+    .sidebar-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 999;
+        display: none;
+    }
+
+    .sidebar-overlay.active {
+        display: block;
+    }
+
+    /* Stats dashboard */
+    .stats-dashboard {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .stat-card {
+        padding: 1rem;
+    }
+
+    /* Charts */
+    .chart-container {
+        height: 200px;
+        margin: 0.5rem 0;
+    }
+
+    /* Page number */
+    .page-number {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    /* Question text improvements */
+    .question-text {
+        font-size: 0.95rem;
+        line-height: 1.4;
+        margin: 0.5rem 0;
+    }
+
+    /* Correct answer display */
+    .correct-answer {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+    }
+
+    /* Explanation text */
+    .explanation {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Additional improvements for very small screens */
+@media (max-width: 320px) {
+    .question {
+        font-size: 0.9rem;
+    }
+
+    .option {
+        font-size: 0.85rem;
+        padding: 0.7rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 0.7rem;
+    }
+
+    .nav-btn {
+        min-width: 35px;
+        min-height: 35px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Landscape mode improvements */
+@media (max-height: 500px) and (orientation: landscape) {
+    .container {
+        padding-top: 3rem; /* Space for burger menu */
+    }
+
+    .sidebar {
+        padding-top: 3rem;
+    }
+
+    .question {
+        margin-bottom: 0.5rem;
+    }
+
+    .options-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .option {
+        margin: 0;
+    }
+
+    .button-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: var(--container-bg);
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-around;
+        z-index: 100;
+    }
+
+    .button-container button {
+        margin: 0;
+        flex: 1;
+        max-width: 200px;
+    }
+}
+
+/* Touch-specific improvements */
+@media (hover: none) {
+    .option:hover {
+        background: var(--option-bg); /* Remove hover effect on touch devices */
+    }
+
+    .option:active {
+        background: var(--option-hover); /* Add active state for touch */
+    }
+
+    button:hover {
+        transform: none; /* Remove hover animations */
+    }
+
+    button:active {
+        transform: scale(0.98); /* Add touch feedback */
+    }
 } 
