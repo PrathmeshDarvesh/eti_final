@@ -1,0 +1,1238 @@
+[
+  {
+    "question_number": 1,
+    "question": "___________________ is performed with the target's permission in a professional setting.",
+    "options": {
+      "A": "Ethical hacking",
+      "B": "Social engineering",
+      "C": "System Engineering",
+      "D": "Software Testing"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 1
+  },
+  {
+    "question_number": 2,
+    "question": "Log scales are linear in ______________________.",
+    "options": {
+      "A": "Addition",
+      "B": "Subtraction",
+      "C": "Multiplication",
+      "D": "Division"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 1
+  },
+  {
+    "question_number": 3,
+    "question": "Which one of the following is not commonly used aesthetics in data visualization?",
+    "options": {
+      "A": "Image",
+      "B": "Color",
+      "C": "Position",
+      "D": "Shape"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 1
+  },
+  {
+    "question_number": 4,
+    "question": "___________________________ can be useful for data of a periodic nature, such that data values at one",
+    "options": {
+      "A": "Cartesian coordinates",
+      "B": "Polar coordinates",
+      "C": "Non-linear axes",
+      "D": "Linear scale"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 1
+  },
+  {
+    "question_number": 5,
+    "question": "Which of the following statements describes a discrete variable?",
+    "options": {
+      "A": "It can take on any value within a range of values"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 1
+  },
+  {
+    "question_number": 6,
+    "question": "_____________________is a branch of science that deals with programming the systems in such a way",
+    "options": {
+      "A": "Machine Learning",
+      "B": "Deep learning",
+      "C": "Neural Network",
+      "D": "IoT"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 2
+  },
+  {
+    "question_number": 7,
+    "question": "____________is a subfield of machine learning.",
+    "options": {
+      "A": "Deep Learning",
+      "B": "Artificial Intelligence",
+      "C": "Shallow Learning",
+      "D": "Artifical Neural Network"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 2
+  },
+  {
+    "question_number": 8,
+    "question": "____________________ algorithms are inspired by the structure and function of the brain called artificial",
+    "options": {
+      "A": "Machine Leaning",
+      "B": "Artificial Intelligence",
+      "C": "Shallow Learning",
+      "D": "Deep Learning"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 2
+  },
+  {
+    "question_number": 9,
+    "question": "_______________________ makes sense of unlabeled data without having any predefined dataset for its",
+    "options": {
+      "A": "Supervised Learning",
+      "B": "Unsupervised Learning",
+      "C": "Reinforcement learning",
+      "D": "Semi-Supervised Learning"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 2
+  },
+  {
+    "question_number": 10,
+    "question": "Which type of AI is commonly used for speech recognition and image recognition?",
+    "options": {
+      "A": "Narrow AI",
+      "B": "General AI",
+      "C": "Super AI",
+      "D": "Strong AI"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 3
+  },
+  {
+    "question_number": 11,
+    "question": "___________________ is one of the best examples of Limited Memory systems.",
+    "options": {
+      "A": "Self-driving car",
+      "B": "IBM's Deep Blue system",
+      "C": "Google's AlphaGo",
+      "D": "Apple Siri"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 3
+  },
+  {
+    "question_number": 12,
+    "question": "The X dimension of AI philosophy is ________________.",
+    "options": {
+      "A": "Reasoning",
+      "B": "Cognition",
+      "C": "Interface",
+      "D": "Knowledge"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 3
+  },
+  {
+    "question_number": 13,
+    "question": "The core components and constituents of AI are derived from the concept of __________________.",
+    "options": {
+      "A": "Logic",
+      "B": "Cognition",
+      "C": "Computation",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 3
+  },
+  {
+    "question_number": 14,
+    "question": "What test did ELIZA successfully pass?",
+    "options": {
+      "A": "Medical Diagnosis Test",
+      "B": "Customer Service Test",
+      "C": "Turing Test",
+      "D": "Financial Advisor Test"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 4
+  },
+  {
+    "question_number": 15,
+    "question": "_____________ is a rule of thumb, strategy, trick, simplification, or any other kind of device which",
+    "options": {
+      "A": "Heuristic",
+      "B": "Critical",
+      "C": "Value based",
+      "D": "Analytical"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 4
+  },
+  {
+    "question_number": 16,
+    "question": "Quantitative data deals with _________________ .",
+    "options": {
+      "A": "Numbers",
+      "B": "Characteristics",
+      "C": "Images",
+      "D": "Sketches"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 4
+  },
+  {
+    "question_number": 17,
+    "question": "-------------------- is a polar coordinate system?",
+    "options": {
+      "A": "A system for measuring temperature",
+      "B": "A system to specify positions via an angle and a radial distance from the origin",
+      "C": "A system for measuring weight",
+      "D": "A system for measuring time"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 4
+  },
+  {
+    "question_number": 18,
+    "question": "802.3 is the standard for 10BASE5 Ethernet that uses _______________ as a shared medium",
+    "options": {
+      "A": "Twisted pair cable",
+      "B": "Coaxial cable"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 4
+  },
+  {
+    "question_number": 19,
+    "question": "__________________ is an actuator that creates motion in a straight line.",
+    "options": {
+      "A": "Relay",
+      "B": "Solenoid",
+      "C": "Linear Actuator",
+      "D": "DC Motor"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 5
+  },
+  {
+    "question_number": 20,
+    "question": "IEEE 802.11 is a collection of ___________________ communication standards",
+    "options": {
+      "A": "Wireless local area network",
+      "B": "Mobile",
+      "C": "Ethernet",
+      "D": "Wireless broadband"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 5
+  },
+  {
+    "question_number": 21,
+    "question": "___________________ uses 128-bit address scheme that allows total of 2128 or 3.4 x 1038 addresses.",
+    "options": {
+      "A": "IPv4",
+      "B": "IPv6",
+      "C": "6LOWPAN",
+      "D": "None of these"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 5
+  },
+  {
+    "question_number": 22,
+    "question": "________________standards form the basis of specifications for high level communication protocols",
+    "options": {
+      "A": "802.3",
+      "B": "802.11",
+      "C": "802.16",
+      "D": "802.15.4"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 5
+  },
+  {
+    "question_number": 23,
+    "question": "The actuators used as an electromagnet is -----------------------",
+    "options": {},
+    "answer": null,
+    "marks": 1,
+    "page_number": 5
+  },
+  {
+    "question_number": 24,
+    "question": "___________________wireless technology is used to deliver higher multi-Gbps peak data speeds.",
+    "options": {
+      "A": "2G",
+      "B": "3G",
+      "C": "4G",
+      "D": "5G"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 6
+  },
+  {
+    "question_number": 25,
+    "question": "In telecommunication networks, NGN stands for __________________________.",
+    "options": {
+      "A": "Next Generation Network",
+      "B": "Network Growth Nucleus",
+      "C": "Network Generation Nexus",
+      "D": "New Global Network"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 6
+  },
+  {
+    "question_number": 26,
+    "question": "Number of layers in NGN architecture is _______.",
+    "options": {
+      "A": "7",
+      "B": "6",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 6
+  },
+  {
+    "question_number": 27,
+    "question": "Layers of NGN are ______________________________.",
+    "options": {
+      "A": "Access, Transport, Control, Service Layer",
+      "B": "Physical, Data Link, Network, Session Layer",
+      "C": "Application, Session, Transport, Network",
+      "D": "Network, Application Layer"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 6
+  },
+  {
+    "question_number": 28,
+    "question": "Wi Max, Wi-Fi, LTE Technology is used in ___mobile network.",
+    "options": {
+      "A": "2G",
+      "B": "3G",
+      "C": "4G",
+      "D": "5G"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 7
+  },
+  {
+    "question_number": 29,
+    "question": "What is the primary function of a Label Switch Router?",
+    "options": {
+      "A": "To forward packets based on their IP addresses",
+      "B": "To forward packets based on their labels",
+      "C": "To perform security functions on network traffic",
+      "D": "To provide Quality of Service (QoS) for network traffic"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 7
+  },
+  {
+    "question_number": 30,
+    "question": "Which of the following is an example of a 5G application for the agriculture industry?",
+    "options": {
+      "A": "Virtual reality gaming",
+      "B": "Online shopping",
+      "C": "Remote monitoring of crops and livestock",
+      "D": "Social media"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 7
+  },
+  {
+    "question_number": 31,
+    "question": "Which of the following industries can benefit from NGN applications?",
+    "options": {
+      "A": "Transportation",
+      "B": "Agriculture",
+      "C": "Manufacturing",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 7
+  },
+  {
+    "question_number": 32,
+    "question": "In Digital Forensic,Planning,Transport of Evidence and Presentation of hypothesis are phases of",
+    "options": {
+      "A": "ADFM"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 7
+  },
+  {
+    "question_number": 33,
+    "question": "The digital evidence are used to establish a credible link between____________",
+    "options": {
+      "A": "Attacker and Information",
+      "B": "Victim and the crime scene",
+      "C": "Attacker,victim and the crime scene",
+      "D": "Attacker and the crime scene"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 8
+  },
+  {
+    "question_number": 34,
+    "question": "Dried blood,fingerprint,DNA samples are examples of ___?",
+    "options": {
+      "A": "Documented Evidence",
+      "B": "Substantial Evidence",
+      "C": "Testimonial Evidence",
+      "D": "Explainable Evidence"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 8
+  },
+  {
+    "question_number": 35,
+    "question": "In ADFM,Which phase is used to provide summary and explaination of conclusion?",
+    "options": {
+      "A": "Approach Strategy",
+      "B": "Presentation",
+      "C": "Preservation",
+      "D": "Analysis"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 8
+  },
+  {
+    "question_number": 36,
+    "question": "Ethical norms for investigator is ----------------------------",
+    "options": {
+      "A": "Should avoid harm to others",
+      "B": "Should be honest and trustworthy",
+      "C": "should contribute to the society",
+      "D": "All of above"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 8
+  },
+  {
+    "question_number": 37,
+    "question": "-------------------is Unethical norms for Digital Forensic Investigation ?",
+    "options": {},
+    "answer": null,
+    "marks": 1,
+    "page_number": 8
+  },
+  {
+    "question_number": 38,
+    "question": "What do the Cyberterrorists do?",
+    "options": {
+      "A": "They are skilled criminal experts who write some of the hacking tools, including the scripts and other",
+      "B": "They are highly technical and publicly known security experts who not only monitor and track",
+      "C": "attack corporate or government computers and public utility infrastructures, such as power grids and",
+      "D": "They are computer novices who take advantage of the exploit tools, vulnerability scanners, and"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 9
+  },
+  {
+    "question_number": 39,
+    "question": "The EMCI follows ………… model ?",
+    "options": {
+      "A": "Waterfall",
+      "B": "Incremental",
+      "C": "V-model",
+      "D": "Data Flow"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 9
+  },
+  {
+    "question_number": 40,
+    "question": "__________ indicates collection,sequence of control,transfer and analysis.It also documents each",
+    "options": {
+      "A": "Best Evidence",
+      "B": "Locard's exchange principle"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 9
+  },
+  {
+    "question_number": 41,
+    "question": "In the case study of Illegal money transfer where the accused transferred huge amount of money",
+    "options": {
+      "A": "System server logs",
+      "B": "IP addresses of machines in cyber cafe",
+      "C": "E-mail IDs of accused",
+      "D": "All of above"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 10
+  },
+  {
+    "question_number": 42,
+    "question": "Which phase of IDIP model includes Detection & Notification Phase?",
+    "options": {
+      "A": "Deployment Phase",
+      "B": "Physical Crime Investigation",
+      "C": "Readiness",
+      "D": "Review phase"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 10
+  },
+  {
+    "question_number": 43,
+    "question": "How many layers are there in Blockchain architecture?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "7"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 10
+  },
+  {
+    "question_number": 44,
+    "question": "Which layer is called as logical layer of Blockchain architecture?",
+    "options": {
+      "A": "Consensus Layer"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 10
+  },
+  {
+    "question_number": 45,
+    "question": "Which of the following statement is true about Blockchain ?",
+    "options": {
+      "A": "Blockchain is peer to peer system with no third parties in between.",
+      "B": "Blockchain is shared,decentralized and open ledger of transactions.",
+      "C": "Blockchain technology was designed to enable true decentralization.",
+      "D": "All of these"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 11
+  },
+  {
+    "question_number": 46,
+    "question": "--------------------- is a common,unchallengeable,digital ledger that allows the process of recording",
+    "options": {
+      "A": "Blockchain",
+      "B": "Cryptography",
+      "C": "Client Server Network",
+      "D": "Centralized system"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 11
+  },
+  {
+    "question_number": 47,
+    "question": "In 2008_______developed system which contains secure history of data exchange.",
+    "options": {
+      "A": "Merkle",
+      "B": "Binary",
+      "C": "Satoshi Nakamoto",
+      "D": "All of above"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 11
+  },
+  {
+    "question_number": 48,
+    "question": "Exploiting weaknesses in network transport mechanisms, such as TCP/IP is an example of",
+    "options": {
+      "A": "Operating system attack",
+      "B": "Network infrastructure attacks",
+      "C": "Non technical attack",
+      "D": "Application attack"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 11
+  },
+  {
+    "question_number": 49,
+    "question": "Respecting privacy is a --------------------",
+    "options": {
+      "A": "data hiding principle",
+      "B": "security assessment principle",
+      "C": "testing process principle",
+      "D": "network security principle"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 12
+  },
+  {
+    "question_number": 50,
+    "question": "In ethical hacking Reading online help files for the given tool. Study the user's manual guide for given",
+    "options": {
+      "A": "Executing the plan",
+      "B": "Formulating the plan",
+      "C": "Evaluating results",
+      "D": "using the Selected tool"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 12
+  },
+  {
+    "question_number": 51,
+    "question": "Classify the following attack in the suitable category :John floods a network with too many request",
+    "options": {
+      "A": "Operating system attack",
+      "B": "Network infrastrcture attack",
+      "C": "Non-technical attack",
+      "D": "Application attack"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 12
+  },
+  {
+    "question_number": 52,
+    "question": "Built in authentication system of a College exam portal is broken down and passwords are cracked",
+    "options": {
+      "A": "Operating system attack",
+      "B": "Network infrastructure attack",
+      "C": "nontechnical attack"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 12
+  },
+  {
+    "question_number": 53,
+    "question": "GDPR is a legal standard that protects the data of ____________________",
+    "options": {
+      "A": "European Union citizens",
+      "B": "Asian citizen",
+      "C": "American Citizens",
+      "D": "African citizens"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 13
+  },
+  {
+    "question_number": 54,
+    "question": "Vulnerability scanning in ethical hacking finds -------------------",
+    "options": {
+      "A": "Strengths",
+      "B": "Weaknesses",
+      "C": "opportunities",
+      "D": "Threats"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 13
+  },
+  {
+    "question_number": 55,
+    "question": "Global information assurance certification (GIAC), Certified Information Systems Security",
+    "options": {
+      "A": "System testing certification",
+      "B": "Network testing Certification",
+      "C": "Datawarehousing testing certification",
+      "D": "Securtiy testing certification"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 13
+  },
+  {
+    "question_number": 56,
+    "question": "To catch a thief, think like a thief. That's the basis for _______________",
+    "options": {
+      "A": "Security testing",
+      "B": "ethical hacking",
+      "C": "configuration testing",
+      "D": "performance testing"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 13
+  },
+  {
+    "question_number": 57,
+    "question": "In Blockchain,----------------------------- layer is used in the peer-to-peer communications between the",
+    "options": {},
+    "answer": "B",
+    "marks": 1,
+    "page_number": 13
+  },
+  {
+    "question_number": 58,
+    "question": "____________ meaning a rogue employee, contractor, intern, or other user who abuses his or her",
+    "options": {
+      "A": "A malicious user",
+      "B": "A tester",
+      "C": "A Design engineer",
+      "D": "An interpreter"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 14
+  },
+  {
+    "question_number": 59,
+    "question": "Buffer overflow attacks are _____________________",
+    "options": {
+      "A": "often how the hacker can get in to modify system files, read database files, and more.",
+      "B": "often how the hacker can get in to modify network files and crack password.",
+      "C": "often how the hacker can get in to modify the IP address",
+      "D": "often how the hacker can get in to network to diable the functionalities."
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 14
+  },
+  {
+    "question_number": 60,
+    "question": "What is traffic analysis or social network analysis?",
+    "options": {
+      "A": "Crashing servers and Transmitting malware",
+      "B": "Gathering messaging-trend information via log files or a network analyzer that can tip off the attacker",
+      "C": "Capturing information while it travels across the network and Perusing e-mails stored on servers and",
+      "D": "Gathering internal network configuration information, such as host-names and IP addresse"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 14
+  },
+  {
+    "question_number": 61,
+    "question": "E-mail bombs attack is ---------------------------------",
+    "options": {},
+    "answer": null,
+    "marks": 1,
+    "page_number": 14
+  },
+  {
+    "question_number": 62,
+    "question": "An attacker can create an ___________________ by sending hundreds or thousands of e-mails with",
+    "options": {
+      "A": "attachment-overload attack",
+      "B": "email",
+      "C": "spreadsheet",
+      "D": "document"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 15
+  },
+  {
+    "question_number": 63,
+    "question": "What is Bandwidth blocking?",
+    "options": {
+      "A": "Multiple large messages can quickly fill the total storage capacity of an e-mail server.",
+      "B": "An attacker can crash e-mail service or bring it to a crawl by filling the incoming Internet connection",
+      "C": "An attack using a flood of e-mails is often carried out in spam attacks and other denial of service",
+      "D": "An attacker blocks the internet services on the PC and in the network."
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 15
+  },
+  {
+    "question_number": 64,
+    "question": "To prevent attachment-overload attacks what should be done?",
+    "options": {
+      "A": "Limit the size of operating system files",
+      "B": "Limit the size of either e-mails or e-mail attachments.",
+      "C": "Limit the number of users in the network",
+      "D": "Limit the number of emails."
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 15
+  },
+  {
+    "question_number": 65,
+    "question": "Using ______________ on web-based e-mail forms can help minimize the impact of automated attacks",
+    "options": {
+      "A": "CAPTCHA",
+      "B": "Password",
+      "C": "MESSAGE",
+      "D": "OTP"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 16
+  },
+  {
+    "question_number": 66,
+    "question": "What is function of SMTP Relay?",
+    "options": {
+      "A": "SMTP relay lets users send e-mails through internal servers.",
+      "B": "SMTP relay lets users send e-mails through external servers.",
+      "C": "SMTP relay lets people send emails in normal fashion.",
+      "D": "SMTP relay lets users change the authorities in the networking."
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 16
+  },
+  {
+    "question_number": 67,
+    "question": "The function of Google dork intitle operator is --------------------------",
+    "options": {
+      "A": "To allows a hacker to develop the pages with specific text in their HTML title.",
+      "B": "To allows a hacker to delete for pages with specific text in their HTML title.",
+      "C": "To allows a hacker to search for pages with specific text in their HTML title.",
+      "D": "To allows a hacker to change for pages with specific text in their HTML title."
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 16
+  },
+  {
+    "question_number": 68,
+    "question": "Which layer of blockchain assures that all the nodes must get approve on a common state of the",
+    "options": {
+      "A": "Application Layer",
+      "B": "Semantic Layer",
+      "C": "Consensus Layer",
+      "D": "Propagation Layer"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 16
+  },
+  {
+    "question_number": 69,
+    "question": "Bitcoin and Ethereum are examples of _____?",
+    "options": {
+      "A": "Currency"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 16
+  },
+  {
+    "question_number": 70,
+    "question": "Categorize the following attack :Entire databases being corrupted or deleted when insecure",
+    "options": {
+      "A": "Network infrstructure attack",
+      "B": "Technical attack",
+      "C": "Operating system attack",
+      "D": "Application attack"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 17
+  },
+  {
+    "question_number": 71,
+    "question": "A buffer overflow attack can be -------------------------------",
+    "options": {
+      "A": "Stack-based or buffer-based",
+      "B": "Stack based or RAM based",
+      "C": "Heap-based or buffer based",
+      "D": "Stack-based or Heap-based"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 17
+  },
+  {
+    "question_number": 72,
+    "question": "What do you understand by Stack based buffer overflow attack ?",
+    "options": {
+      "A": "Hacker corrupts data within the heap, and that code change forces your system to overwrite important",
+      "B": "Attacker corrupts the data of program, and that transmission is stored somewhere.",
+      "C": "Attacker sends data to a program, and that transmission is stored in a too-small stack buffer.",
+      "D": "Attacker requests for the data, and that transmits that data back to sender ."
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 17
+  },
+  {
+    "question_number": 73,
+    "question": "When the hacker corrupts data within the heap, and that code change forces your system to",
+    "options": {
+      "A": "scan based buffer overflow",
+      "B": "sweep based buffer overflow",
+      "C": "heap based buffer overflow"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 17
+  },
+  {
+    "question_number": 74,
+    "question": "Transmitting malware,Crashing servers, Obtaining remote control of workstations, Capturing and",
+    "options": {
+      "A": "hacker attacks against messaging systems",
+      "B": "hacker attacks against email systems",
+      "C": "hacker attacks against operating systems",
+      "D": "hacker attacks against network systems"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 18
+  },
+  {
+    "question_number": 75,
+    "question": "Perusing e-mails in e-mail databases on servers and workstations can be understood as --------------",
+    "options": {
+      "A": "hacker attacks against network systems",
+      "B": "hacker attacks against messaging systems",
+      "C": "hacker attacks against email systems",
+      "D": "hacker attacks against operating systems"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 18
+  },
+  {
+    "question_number": 76,
+    "question": "An email bomb is also known as a ---------------------",
+    "options": {
+      "A": "lattar bomb",
+      "B": "later bomb",
+      "C": "latter bomb",
+      "D": "letter bomb."
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 18
+  },
+  {
+    "question_number": 77,
+    "question": "____________ is a form of Internet abuse which is perpetrated through the sending of massive",
+    "options": {
+      "A": "Google dorking",
+      "B": "Port sweeping",
+      "C": "An email bomb"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 18
+  },
+  {
+    "question_number": 78,
+    "question": "Attachment overloading attack, connection attack, autoresponder attack are understood as -----------",
+    "options": {
+      "A": "email bomb attack",
+      "B": "Heap based buffer overflow attack",
+      "C": "stack based buffer overflow attack",
+      "D": "message system attack"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 19
+  },
+  {
+    "question_number": 79,
+    "question": "Application of connection attack is done by --------------",
+    "options": {
+      "A": "crashing e-mail service or bring it to a crawl by filling the incoming Internet connection with junk.",
+      "B": "creating an attachment-overloading attack by sending hundreds or thousands of e-mails with very",
+      "C": "multiple large messages are sent by hacker that can quickly fill the total storage capacity of an e-mail",
+      "D": "a hacker sending a huge amount of e-mails simultaneously to addresses on the network."
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 19
+  },
+  {
+    "question_number": 80,
+    "question": "Use new operating systems, Watch the language, Lean on developers, Apply your patches are",
+    "options": {
+      "A": "Operating system attack",
+      "B": "Network infrastructure attack",
+      "C": "Application attack",
+      "D": "Technical attack"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 19
+  },
+  {
+    "question_number": 81,
+    "question": "Windows attack leads to ----------------------",
+    "options": {
+      "A": "Transmitting malware, Crashing servers, Obtaining remote control of workstations, Capturing and"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 19
+  },
+  {
+    "question_number": 82,
+    "question": "Sequential steps hackers uses are: __, ___, __, __",
+    "options": {
+      "A": "B, C, D, A",
+      "B": "B, A, C, D",
+      "C": "A, B, C, D",
+      "D": "D, C, B, A"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 20
+  },
+  {
+    "question_number": 83,
+    "question": "______ is the art of exploiting the human elements to gain access to unauthorised resources",
+    "options": {
+      "A": "Social Engineering.",
+      "B": "IT Engineering.",
+      "C": "Software testing",
+      "D": "Ethical Hacking."
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 20
+  },
+  {
+    "question_number": 84,
+    "question": "Ethical hacking will allow to____ all the massive security breaches.",
+    "options": {
+      "A": "Remove.",
+      "B": "Measure.",
+      "C": "Reject.",
+      "D": "Update"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 20
+  },
+  {
+    "question_number": 85,
+    "question": "_____system has a centralized control with all administrative rights.",
+    "options": {
+      "A": "Blockchain",
+      "B": "Cryptography",
+      "C": "Decentralized",
+      "D": "Centralized"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 21
+  },
+  {
+    "question_number": 86,
+    "question": "Identify system shown in given figure?",
+    "options": {
+      "A": "Centralized System",
+      "B": "Decentralized System",
+      "C": "Decentralized and peer to peer system",
+      "D": "None of these"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 21
+  },
+  {
+    "question_number": 87,
+    "question": "_________system does not have a centralized control and every node has equal authority.",
+    "options": {
+      "A": "Centralized",
+      "B": "Decentralized",
+      "C": "Client server",
+      "D": "Star Network"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 21
+  },
+  {
+    "question_number": 88,
+    "question": "In ----------------- layer in Blokchain,the node gets Synchronized with another node in netwrok and",
+    "options": {
+      "A": "Execution Layer",
+      "B": "Application Layer",
+      "C": "Semanitic Layer",
+      "D": "Propogation Layer"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 21
+  },
+  {
+    "question_number": 89,
+    "question": "Which Technology can help contract management and audit the origin of a product ?",
+    "options": {},
+    "answer": null,
+    "marks": 1,
+    "page_number": 21
+  },
+  {
+    "question_number": 90,
+    "question": "In Blockchain, when a transaction is recorded ,it cannot be modified.This feature is called as______?",
+    "options": {
+      "A": "Immutability",
+      "B": "Cryptocurrency",
+      "C": "VPN",
+      "D": "Bitcoin"
+    },
+    "answer": "A",
+    "marks": 1,
+    "page_number": 22
+  },
+  {
+    "question_number": 91,
+    "question": "ADFM stands for ___?",
+    "options": {
+      "A": "Analog Digital Forensic Model",
+      "B": "Abstract Digital Forensic Model",
+      "C": "Abstract Descrete Forensic Model",
+      "D": "Analog Descrete Forensic Model"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 22
+  },
+  {
+    "question_number": 92,
+    "question": "In ADFM model,The preparation of tools,techniques,search warrants are functions of which phase?",
+    "options": {
+      "A": "Collection",
+      "B": "Preservation",
+      "C": "Examination",
+      "D": "Preparation"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 22
+  },
+  {
+    "question_number": 93,
+    "question": "In IDIP Model,Which phase is used to put the pieces of digital puzzle together and developing",
+    "options": {
+      "A": "Review phase",
+      "B": "Presentation phase",
+      "C": "Reconstruction phase"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 22
+  },
+  {
+    "question_number": 94,
+    "question": "In digital Forensics,while doing Investiagation,the investigator should follow ?",
+    "options": {
+      "A": "Honesty towards the Investigation",
+      "B": "Carefully Handling the digital evidences",
+      "C": "Compliance with the law and professional Norms",
+      "D": "All of above"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 23
+  },
+  {
+    "question_number": 95,
+    "question": "Why it is important to maintain the Chain of Custody ?",
+    "options": {
+      "A": "To preserve the integrity of the evidence",
+      "B": "To prevent it from contamination",
+      "C": "To maintain the state of evidence",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 23
+  },
+  {
+    "question_number": 96,
+    "question": "What is/are the procedural steps to establish chain of Custody?",
+    "options": {
+      "A": "Work with original evidence",
+      "B": "Perform a hash test analysis",
+      "C": "Alter the state of evidence",
+      "D": "Declare the confidential matters"
+    },
+    "answer": "B",
+    "marks": 1,
+    "page_number": 23
+  },
+  {
+    "question_number": 97,
+    "question": "Identify Forensic Model in given fig?",
+    "options": {
+      "A": "IDIP",
+      "B": "EMCI",
+      "C": "Waterfall",
+      "D": "ADFM"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 23
+  },
+  {
+    "question_number": 98,
+    "question": "The general ethical norms for Investigator is ----------------------",
+    "options": {
+      "A": "to discriminate"
+    },
+    "answer": "C",
+    "marks": 1,
+    "page_number": 23
+  },
+  {
+    "question_number": 99,
+    "question": "Which of the following are sources of digital evidences?",
+    "options": {
+      "A": "Internet based files",
+      "B": "Stand-alone computers or devices",
+      "C": "Mobile devices",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "marks": 1,
+    "page_number": 24
+  }
+]

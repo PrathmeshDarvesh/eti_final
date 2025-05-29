@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="google-adsense-account" content="ca-pub-9883611966074543">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9883611966074543"
+     crossorigin="anonymous"></script>
+    <title>MCQ Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Add Chart.js for analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <!-- Accessibility Controls -->
+        <div class="accessibility-controls" role="toolbar" aria-label="Accessibility Controls">
+            <button id="font-size-increase" aria-label="Increase font size">
+                <i class="fas fa-text-height"></i>
+            </button>
+            <button id="font-size-decrease" aria-label="Decrease font size">
+                <i class="fas fa-text-height fa-flip-vertical"></i>
+            </button>
+            <button id="high-contrast-toggle" aria-label="Toggle high contrast mode">
+                <i class="fas fa-adjust"></i>
+            </button>
+            <button id="sound-toggle" aria-label="Toggle sound">
+                <i class="fas fa-volume-up"></i>
+            </button>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar" class="sidebar" role="complementary" aria-label="Question Navigation">
+            <div class="sidebar-header">
+                <h3>Questions</h3>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="category-filter">
+                <select id="category-select" aria-label="Filter by category">
+                    <option value="all">All Categories</option>
+                </select>
+            </div>
+
+            <!-- Search and Filter -->
+            <div class="search-container">
+                <input type="text" id="question-search" placeholder="Search questions..." aria-label="Search questions">
+                <button id="filter-btn" aria-label="Filter questions">
+                    <i class="fas fa-filter"></i>
+                </button>
+            </div>
+
+            <!-- Question Summary -->
+            <div class="question-summary">
+                <p>Attempted: <span id="attempted-count">0</span></p>
+                <p>Remaining: <span id="remaining-count">0</span></p>
+                <p>Marked: <span id="marked-count">0</span></p>
+            </div>
+
+            <!-- Question Navigation -->
+            <div id="question-nav" role="navigation" aria-label="Question Navigation"></div>
+
+            <!-- Learning Progress -->
+            <div class="learning-progress">
+                <h4>Learning Progress</h4>
+                <div class="progress-chart">
+                    <canvas id="learning-chart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="container">
+            <!-- Header Actions -->
+            <div class="header-actions">
+                <button id="save-progress" class="action-btn" aria-label="Save progress">
+                    <i class="fas fa-save"></i> Save Progress
+                </button>
+                <button id="review-all" class="action-btn" aria-label="Review all questions">
+                    <i class="fas fa-list-check"></i> Review All
+                </button>
+                <button id="practice-mode" class="action-btn" aria-label="Switch to practice mode">
+                    <i class="fas fa-graduation-cap"></i> Practice Mode
+                </button>
+                <button id="take-break" class="action-btn" aria-label="Take a break">
+                    <i class="fas fa-coffee"></i> Take Break
+                </button>
+            </div>
+
+            <h1>MCQ Test</h1>
+
+            <button id="burger-menu" class="burger-menu" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container">
+            <!-- Start screen will be inserted here -->
+            <div class="start-screen">
+                <h2>Welcome to the MCQ Test</h2>
+                <p>Total Questions Available: <span id="total-questions">0</span></p>
+                <p>Time per Question: 30 seconds</p>
+                <div class="start-options">
+                    <button id="random-70-btn" class="start-btn">
+                        <i class="fas fa-random"></i> Take 70 Random Questions
+                    </button>
+                    <button id="all-questions-btn" class="start-btn">
+                        <i class="fas fa-list"></i> Take All Questions
+                    </button>
+                </div>
+            </div>
+        </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <!-- Question Container -->
+            <div id="question-container" role="main" aria-live="polite"></div>
+
+            <!-- Options Container -->
+            <div id="options-container" role="radiogroup" aria-label="Answer options"></div>
+
+            <!-- Feedback Container -->
+            <div id="feedback-container" class="feedback-container" role="alert" aria-live="polite"></div>
+
+            <!-- Meme Container -->
+            <div id="meme-container" class="meme-container hidden">
+                <div class="meme-wrapper">
+                    <img id="meme-image" alt="Random meme" class="meme-image">
+                </div>
+            </div>
+
+            <!-- Question Controls -->
+            <div class="button-container">
+                <button id="skip-btn" class="secondary-btn" aria-label="Skip question">
+                    <i class="fas fa-forward"></i> Skip
+                </button>
+                <button id="mark-review-btn" class="secondary-btn" aria-label="Mark for review">
+                    <i class="fas fa-flag"></i> Mark
+                </button>
+                <button id="hint-btn" class="secondary-btn" aria-label="Show hint">
+                    <i class="fas fa-lightbulb"></i> Hint
+                </button>
+                <button id="submit-btn" class="primary-btn" aria-label="Submit answer">
+                    <i class="fas fa-check"></i> Submit
+                </button>
+                <button id="next-btn" class="primary-btn" aria-label="Next question">
+                    <i class="fas fa-arrow-right"></i> Next
+                </button>
+            </div>
+
+            <!-- Keyboard Hints -->
+            <div class="keyboard-hints">
+                <p>Use keyboard: 1-4 for options, Space to submit, N for next, S to skip, M to mark, H for hint</p>
+            </div>
+
+            <!-- Result Container -->
+            <div id="result-container" class="hidden" role="region" aria-label="Test Results">
+                <h2>Test Complete!</h2>
+                
+                <!-- Score Display -->
+                <div class="score-display">
+                    <p>Your Score: <span id="score">0</span></p>
+                    <p>Percentage: <span id="percentage">0%</span></p>
+                </div>
+
+                <!-- Analytics Dashboard -->
+                <div class="analytics-dashboard">
+                    <div class="stats-dashboard">
+                        <div class="stat-card">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Correct</h3>
+                            <p id="correct-count">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-times-circle"></i>
+                            <h3>Incorrect</h3>
+                            <p id="incorrect-count">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-clock"></i>
+                            <h3>Timeouts</h3>
+                            <p id="timeout-count">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-flag"></i>
+                            <h3>Marked</h3>
+                            <p id="marked-count">0</p>
+                        </div>
+                    </div>
+
+                    <!-- Performance Charts -->
+                    <div class="performance-charts">
+                        <div class="chart-container">
+                            <h3>Performance by Category</h3>
+                            <canvas id="category-chart"></canvas>
+                        </div>
+                        <div class="chart-container">
+                            <h3>Time per Question</h3>
+                            <canvas id="time-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review Container -->
+                <div id="review-container" role="region" aria-label="Question Review"></div>
+
+                <!-- Action Buttons -->
+                <div class="result-actions">
+                    <button id="restart-btn" class="primary-btn">
+                        <i class="fas fa-redo"></i> Restart Test
+                    </button>
+                    <button id="export-results" class="secondary-btn">
+                        <i class="fas fa-download"></i> Export Results
+                    </button>
+                    <button id="share-results" class="secondary-btn">
+                        <i class="fas fa-share"></i> Share Results
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Break Modal -->
+    <div id="break-modal" class="modal hidden" role="dialog" aria-label="Break Timer">
+        <div class="modal-content">
+            <h2>Take a Break</h2>
+            <div class="break-settings">
+                <label for="break-duration">Break Duration (minutes):</label>
+                <input type="number" id="break-duration" min="1" max="60" value="5">
+                <button id="start-break-timer" class="primary-btn">
+                    <i class="fas fa-play"></i> Start Break
+                </button>
+            </div>
+            <div class="break-timer-container hidden">
+                <p>Your progress has been saved.</p>
+                <div class="break-timer">
+                    <span id="break-time">05:00</span>
+                </div>
+                <button id="resume-btn" class="primary-btn">
+                    <i class="fas fa-play"></i> Resume Test
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hint Modal -->
+    <div id="hint-modal" class="modal hidden" role="dialog" aria-label="Question Hint">
+        <div class="modal-content">
+            <h2>Hint</h2>
+            <p id="hint-text"></p>
+            <button id="close-hint" class="primary-btn">Close</button>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="spinner hidden" role="status" aria-label="Loading">
+        <div class="spinner-content">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
